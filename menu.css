@@ -1,0 +1,107 @@
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* displaying all the properties on the page to flex direction */
+.menu{
+    display: flex;
+    width: 100%;
+    margin-top:5px ;
+    margin-left: 3em;
+    padding: 15px;
+    font-family: 'Mulish' , sans-serif; 
+}
+
+/* sidebar containg the icons should display the following properties */
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    margin-left: 1em; 
+    width: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px black;
+}
+
+/* This section gives the icon menu the following properties when active */
+#iconmenu{
+    background-color: burlywood;
+    cursor: pointer;
+    margin-top: 2px;
+
+}
+
+.sidebar img{
+    width: 30px;
+    margin: 0 auto;
+    margin: 10px;
+}
+
+/* second container */
+.food{
+    margin-left: 25px;
+    padding: 10px;
+}
+h2{
+    margin-left: 15px;
+    text-decoration: underline solid burlywood;
+    
+}
+
+/* first row of the food items in flex display */
+.item1{
+    display: flex;
+    
+    
+}
+.item1 img{
+    margin: 25px;
+    width: 180px;
+}
+.item1 p{
+    text-align: center;
+}
+
+/*second row of the food items in flex direction and styling  */
+.item2{
+    display: flex;
+    
+    
+}
+.item2 img{
+    margin: 25px;
+    width: 180px;
+}
+.item2 p{
+    text-align: center;
+}
+/* learn more button styling */
+.btn{
+    margin-left: 22em;
+    
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* display he following properties when hovered on the button */
+button:hover{
+    background-color: burlywood;
+    color: rgb(12, 11, 11);
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 15px;
+    
+
+}

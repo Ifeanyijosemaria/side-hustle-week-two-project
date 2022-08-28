@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* the entire content on the page displyed in flex direction row */
+.cart{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Mulish' , sans-serif; 
+}
+
+/* sidebar containg the icons should display the following properties */
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    margin-left: 1em; 
+    width: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.sidebar img{
+    width: 30px;
+    margin: 0 auto;
+    margin: 10px;
+}
+
+/* This section gives the icon menu the following properties when active */
+#iconcart{
+    background-color: burlywood;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+/* section for the first container containing the food prices */
+.container1{
+    margin: 25px;
+    width: 40%;
+}
+/* h1 element in the container1 section */
+.container1 h1{
+    margin-left:20px ;
+    text-decoration: underline solid burlywood;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px;
+    background-color: burlywood;
+    
+}
+/* first row of the food list displayed in flex direction */
+.one{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.one div{
+    width: 25%;
+}
+
+.two{
+    display: flex;
+    margin-left: 15px;
+}
+.two div{
+    width: 25%;
+}
+
+.three{
+    display: flex;
+    margin-left: 15px;
+}
+.three div{
+    width: 25%;
+}
+
+.four{
+    display: flex;
+    margin-left: 15px;
+}
+.four div{
+    width: 25%;
+}
+
+.container1 img{
+    width: 80px;
+    border-radius: 200px;
+}
+
+/* the the button in container1 should disply the folloing properties */
+.btn{
+    margin-left: 15px;
+}
+.btn button{
+    padding: 8px;
+}
+
+
+
+/* containr two */
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-left:20px ;
+    margin-top: 5.2em;
+    width: 30%;
+}
+/* this secttion style's the price div */
+
+.price{
+    background-color: burlywood;
+    padding: 34px;
+    width: 100%;
+    text-align: justify;
+}
+
+.price p{
+     font-size: 20px;
+}
+span{
+    margin-left:1em ;
+}
+.price button{
+    background-color: black;
+    color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+/* promo code section */
+.promo{
+    border: 2px solid burlywood;
+    width: 100%;
+    text-align: justify;
+    padding: 5%;
+    
+}
+.promo h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.promo input{
+    border: 1px solid burlywood;
+    width: 80%;
+    margin: 0 auto;
+    padding: 13px;
+    margin-bottom: 1.5em;
+}
+.promo button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+    width: 40%;
+    text-decoration: none;
+    margin-bottom: 2em;
+}
+
+/* copyrigth */
+.copyright{
+    margin-left: 25px;
+    position: absolute;
+    bottom: 0;
+}
